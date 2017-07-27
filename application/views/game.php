@@ -36,8 +36,18 @@
 <div class="col-md-4">
 		
       <div class="well">
-                   
-                    <h4>Side Widget Well</h4>                  
+              <h2>LAST 5 winners </h2>     
+           <?php 
+               
+               foreach ($results as $result) {
+               	
+              echo "  PLAYER: ".$result['winner']." at: ".$result['created_at'] ."<br>";
+
+
+               }
+
+
+           ?>                 
         </div>  
 
 

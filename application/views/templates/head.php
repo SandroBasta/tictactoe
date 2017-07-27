@@ -15,7 +15,7 @@
     <link href="<?php echo base_url(); ?>asset/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<?php echo base_url(); ?>/asset/js/jquery-3.2.1.min.js"></script>
     <script src="<?php echo base_url(); ?>/asset/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>/asset/js/game.js"></script>

@@ -17,8 +17,8 @@ $(document).ready(function(){
            	    	sqrSelected.addClass('fa fa-times');
 
            	    	if (playerWon('fa fa-times')) {
- 
-           	    		 alert('Player ' +player+ ' has won!');
+                         saveResult(player);
+           	    		 alert('Player ' +player+ ' has won!');           	    		
            	    		 window.location.reload(true);
 
            	    	} else{
@@ -31,8 +31,8 @@ $(document).ready(function(){
            	    	sqrSelected.addClass('fa fa-circle-o');
 
            	    	if (playerWon('fa fa-circle-o')) {
- 
-           	    		 alert('Player ' +player+ ' has won!');
+                         saveResult(player);
+           	    		 alert('Player ' +player+ ' has won!');          	    		 
            	    		 window.location.reload(true);
 
            	    	} else{
@@ -68,5 +68,19 @@ $(document).ready(function(){
        }
      }
 
+     function saveResult(player){
+       
+     	$.ajax({
+		method: 'POST',
+		dataType:'json',
+		url: 'http://localhost/tictactoe/store', 
+		data: ({winner:player}),
+		async:true,
+		success: function(response){
+		console.log(data);
+		}
+		});
+     	 
+     }
 
 });
