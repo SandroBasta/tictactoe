@@ -38,14 +38,14 @@
       <div class="well">
               <h2>LAST 5 winners </h2>     
            <?php 
-               
-               foreach ($results as $result) {
-               	
-              echo "  PLAYER: ".$result['winner']." at: ".$result['created_at'] ."<br>";
-
+               if($result){
+		       
+                  foreach ($results as $result) {           	
+                  echo "  PLAYER: ".$result['winner']." at: ".$result['created_at'] ."<br>";
+                  
+		  }
 
                }
-
 
            ?>                 
         </div>  
