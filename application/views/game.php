@@ -3,8 +3,8 @@
 <div class="col-md-8 board">
 <div class="row">
 	
-    <div class="col-xs-6 col-md-4 sqr bottom right div1"></div>
-	<div class="col-xs-6 col-md-4 sqr bottom right div2"></div>
+    <div class="col-xs-6 col-md-4 sqr bottom right div1 "></div>
+	<div class="col-xs-6 col-md-4 sqr bottom right div2 "></div>
 	<div class="col-xs-6 col-md-4 sqr bottom div3"></div>
 
 

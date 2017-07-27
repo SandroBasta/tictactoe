@@ -15,11 +15,12 @@
     <link href="<?php echo base_url(); ?>asset/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="<?php echo base_url(); ?>asset/css/custom.css" rel="stylesheet">
+    
     <script src="<?php echo base_url(); ?>/asset/js/jquery-3.2.1.min.js"></script>
     <script src="<?php echo base_url(); ?>/asset/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>/asset/js/game.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="<?php echo base_url(); ?>asset/css/custom.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

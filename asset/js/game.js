@@ -8,15 +8,15 @@ $(document).ready(function(){
 
            var sqrSelected =$(this);
 
-           if (sqrSelected.hasClass('x') || sqrSelected.hasClass('o')) {
+           if (sqrSelected.hasClass('fa fa-times') || sqrSelected.hasClass('fa fa-circle-o')) {
 
            }else{
 
            	    if (player == 'X') {
 
-           	    	sqrSelected.addClass('x');
+           	    	sqrSelected.addClass('fa fa-times');
 
-           	    	if (playerWon('x')) {
+           	    	if (playerWon('fa fa-times')) {
  
            	    		 alert('Player ' +player+ ' has won!');
            	    		 window.location.reload(true);
@@ -28,9 +28,9 @@ $(document).ready(function(){
 
            	    }else{
 
-           	    	sqrSelected.addClass('o');
+           	    	sqrSelected.addClass('fa fa-circle-o');
 
-           	    	if (playerWon('o')) {
+           	    	if (playerWon('fa fa-circle-o')) {
  
            	    		 alert('Player ' +player+ ' has won!');
            	    		 window.location.reload(true);
@@ -61,8 +61,10 @@ $(document).ready(function(){
        	  return true;
        }else if($('.div3').hasClass(symbol) && $('.div5').hasClass(symbol) && $('.div7').hasClass(symbol)){
        	  return true;
+       }else if($('.div1').hasClass(symbol) && $('.div4').hasClass(symbol) && $('.div7').hasClass(symbol)){
+       	  return true;
        }else{
-       	  return false;
+       	return false;
        }
      }
 
