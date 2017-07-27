@@ -5,10 +5,14 @@ body {
 footer {
     margin: 50px 0;
 }
-
+.board{
+	width: 400px;
+	margin: 30px auto 20px 100px;
+}
 .sqr{
-	width: 119px;
-	height: 119px;
+	width: 120px;
+	height: 120px;
+	cursor: pointer;
 	
 }
 
@@ -27,9 +31,17 @@ footer {
 	margin-top:50px;
 	margin-left:100px;
 }
-
+.x{
+	background-color: blue;
+}
+.o{
+	background-color: red;
+}
 @media only screen and (max-width: 500px) {
-    
+    .board{
+       width: auto;
+	
+	}
     .sqr{
 	width: 70px;
 	height: 70px;

@@ -1,6 +1,6 @@
 
 <div class="container">
-<div class="col-md-8 ">
+<div class="col-md-8 board">
 <div class="row">
 	
     <div class="col-xs-6 col-md-4 sqr bottom right div1"></div>
@@ -28,7 +28,7 @@
 </div>
 
 
-   <button type="button" class="btn btn-success margin">RESET GAME</button>
+   <button type="button" onclick="window.location.reload(true);" class="btn btn-success margin">RESET GAME</button>
 
 
 </div>
@@ -36,9 +36,11 @@
 <div class="col-md-4">
 		
       <div class="well">
-                    <h4>Side Widget Well</h4>
-                    
-        </div>               
+                   
+                    <h4>Side Widget Well</h4>                  
+        </div>  
+
+
                   
  
 </div>
